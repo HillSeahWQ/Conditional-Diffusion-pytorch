@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "pompous-penguin"
+version = "0.1.0"
+description = ""
+authors = ["HillSeahWQ <hill1503000@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+notebook = "^7.2.1"
+ipykernel = "^6.29.5"
+numpy = "<2"
+pymongo = "^4.8.0"
+torch = {version = "^2.4.0+cu121", source = "pytorch"}
+torchvision = {version = "^0.19.0+cu121", source = "pytorch"}
+torchaudio = {version = "^2.4.0+cu121", source = "pytorch"}
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+tqdm = "^4.66.5"
+# tensorflow = "2.16.0rc0"
+# tensorflow-intel = {version="^2.16.0rc0", platform = "win32"} # important dependency to specify for tensorflow (missed out)
+scikit-learn = "^1.5.1"
+torchmetrics = "^1.4.1"
+mlxtend = "^0.23.1"
+torchinfo = "^1.8.0"
+tensorboard = "^2.17.1"
+gradio = "^4.44.1"
+albumentations = "^1.4.18"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+
+[[tool.poetry.source]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cu121"
+priority = "supplemental"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
