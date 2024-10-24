@@ -1,10 +1,3 @@
-# Pompous Penguin
-![image](https://miro.medium.com/v2/resize:fit:512/1*IMGOKBIN8qkOBt5CH55NSw.png)
-### Resource
-- [Learn PyTorch](https://www.learnpytorch.io/)
-
----
-
 ### Setup Prerequisites
 
 1. **Install Python 3.12.3**
