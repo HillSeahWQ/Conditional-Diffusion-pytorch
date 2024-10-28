@@ -19,7 +19,7 @@
    ```bash
    poetry shell
    ```
-3. **Run any file**
+3. **Go to folder and read folder-specific read me on run details**
 
 ---
 
