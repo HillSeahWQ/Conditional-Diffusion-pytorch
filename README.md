@@ -40,11 +40,11 @@ This project implements a **Conditional Denoising Diffusion Probabilistic Model 
    poetry shell
    ```
 4. **Conditional Training**
-   - (Optional) Configure Hyperparameters in `ddpm_conditional.py`
-   - Set path to dataset in `ddpm_conditional.py`
+   - (Optional) Configure Hyperparameters in `train.py`
+   - Set path to dataset in `train.py`
    - Run the training script:
    ```bash
-   python ddpm_conditional.py
+   python train.py
    ```
 5. **Sampling of Conditional Model**
 
