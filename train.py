@@ -155,11 +155,12 @@ def launch():
     import argparse
     parser = argparse.ArgumentParser()
     args = parser.parse_args()
+    # Hyperparameters
     args.run_name = "DDPM_conditional"
     args.epochs = 300
     args.batch_size = 14 # change to lower if facing gpu memory issues
-    args.image_size = 64
-    args.num_classes = 10
+    args.image_size = 64 
+    args.num_classes = 10 # update to your dataset's number of classes
     args.dataset_path = Path().cwd().parent / "data" / "cifar10" / "cifar10-64" / "train"
     args.device = "cuda"
     args.lr = 3e-4
